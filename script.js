@@ -8,17 +8,7 @@ function init() {
       smooth: true,
     },
     smooth: true,
-    getDirection: true,
-    mobile: {
-      breakpoint: 0,
-      smooth: false,
-      getDirection: true,
-    },
-    tablet: {
-      breakpoint: 0,
-      smooth: false,
-      getDirection: true,
-    },
+   
   });
   locoScroll.on("scroll", ScrollTrigger.update);
 
